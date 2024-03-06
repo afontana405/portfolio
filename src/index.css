@@ -32,3 +32,41 @@ body {
     color: var(--light);
     font-family: 'Open Sans', sans-serif;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Aladin', cursive;
+  font-weight: 500;
+  margin: 5px 0;
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 50px 20px;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
