@@ -5,7 +5,7 @@ function Header(props) {
     return (
         <header className="">
             <h1>Fontana</h1>
-            <img src={coverImage} alt=""></img>
+            <img src={coverImage} alt="header background"></img>
             {props.children}
         </header>
     );
