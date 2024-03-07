@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Project from '../Project';
 
 function Portfolio() {
 
@@ -17,7 +18,16 @@ function Portfolio() {
         }
     ])
     return(
-        <p>Portfolio</p>
+        <div>
+            <div className="flex-row">
+                {projects.map((project, idx) => (
+                    <Project
+                    project={project}
+                    key={"project" + idx}
+                />
+            ))}
+        </div>
+    </div>
     )
 }
 

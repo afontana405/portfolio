@@ -125,6 +125,7 @@ footer a {
 footer a:hover {
     opacity: 1;
 }
+
 textarea {
     width: 600px;
     height: 200px;
