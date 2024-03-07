@@ -1,20 +1,25 @@
 import { Link } from 'react-router-dom'
 
 function Nav({ currentPage }) {
-    const pages = ['About', 'Portfolio', 'Contact', 'Resume'];
+    const pages = ['Portfolio', 'Contact', 'Resume'];
 
     return (
         <nav>
-            <ul className="">
-                {pages.map((page) => (
+            <ul className="flex-row">
+                <li
+                    className={`mx-5 ${currentPage === '/' && 'navActive'}`}
+                    key="about"
+                >
+                    <Link to="/">About</Link>
+                </li>
+                {pages.map((Page) => (
                     <li
-                        className=""
-                        key={page}
+                        className={`mx-5 ${currentPage === `/${Page}` && 'navActive'}`}
+                        key={Page}
                     >
-                        <Link to={`/${page}`}>{page}</Link>
+                    <Link to={`/${Page}`}>{Page}</Link>
                     </li>
-                ))
-                }
+                ))}
             </ul>
         </nav>
     );
