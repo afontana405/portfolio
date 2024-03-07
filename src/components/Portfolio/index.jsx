@@ -13,7 +13,7 @@ function Portfolio() {
             name: 'Resturant Reservation App',
             descrpiton: 'Mern Stack Reservation Application',
             link: 'https://github.com/',
-            repo: 'https://github.com/',
+            repo: 'https://github.com/'
         }
     ])
     return(
