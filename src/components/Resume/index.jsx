@@ -7,9 +7,8 @@ function Resume() {
                 </p>
                 <h3>Front-end Proficiencies</h3>
                 <ul className="skills">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
+                    <li>HTML, CSS</li>
+                    <li>PYTHON, JAVA, JS, C, C++</li>
                     <li>jQuery</li>
                     <li>responsive design</li>
                     <li>React</li>
