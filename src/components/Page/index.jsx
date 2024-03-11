@@ -11,7 +11,7 @@ function Page({ currentPage }) {
 
     return (
         <section>
-            <h2>{currentPage}</h2>
+            <h2 className='flex-center'>{currentPage}</h2>
 
             <PageContent>
                 <Outlet />

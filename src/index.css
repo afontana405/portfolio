@@ -256,6 +256,7 @@ textarea {
 
 .flex-center {
     justify-content: center;
+    text-align: center;
 }
 
 .mx-1 {
