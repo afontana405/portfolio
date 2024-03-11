@@ -12,9 +12,15 @@ function Portfolio() {
         },
         {
             name: 'resturantReservation',
-            descrpiton: 'Mern Stack Reservation Application',
+            description: 'Mern Stack Reservation Application',
             link: 'https://github.com/',
             repo: 'https://github.com/'
+        },
+        {
+            name: 'ECommerceBackend',
+            description: 'E-Commerce Backend Application',
+            link: 'https://github.com/',
+            repo: 'https://github.com/',
         }
     ])
     return(
