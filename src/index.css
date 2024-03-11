@@ -314,7 +314,7 @@ textarea {
     width: 100%;
     max-width: 500px;
     height: 300px;
-    margin: 30px;
+    margin: 30px auto;
 }
   
 .project-bg {

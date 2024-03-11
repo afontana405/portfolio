@@ -10,7 +10,7 @@ function Page({ currentPage }) {
     }, [currentPage]);
 
     return (
-        <section>
+        <section className='flex-center'>
             <h2 className='flex-center'>{currentPage}</h2>
 
             <PageContent>
