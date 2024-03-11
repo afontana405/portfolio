@@ -349,7 +349,7 @@ textarea {
 .project-text a {
     text-decoration: none;
     font-weight: bold;
-    color: var(--dark);
+    color: #224d6b;
     transition: all .3s ease-in-out;
 }
   
