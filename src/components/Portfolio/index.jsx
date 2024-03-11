@@ -5,13 +5,13 @@ function Portfolio() {
 
     const [projects] = useState([
         {
-            name: 'FlashCard App',
+            name: 'flashCard',
             description: 'MERN Stack Flash Card Application',
             link: 'https://github.com/',
             repo: 'https://github.com/'
         },
         {
-            name: 'Resturant Reservation App',
+            name: 'resturantReservation',
             descrpiton: 'Mern Stack Reservation Application',
             link: 'https://github.com/',
             repo: 'https://github.com/'
@@ -23,11 +23,11 @@ function Portfolio() {
                 {projects.map((project, idx) => (
                     <Project
                         project={project}
-                    key={"project" + idx}
-                />
-            ))}
+                        key={"project" + idx}
+                    />
+                ))}
+            </div>
         </div>
-    </div>
     )
 }
 
