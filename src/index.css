@@ -207,7 +207,7 @@ ul.skills {
 }
   
 ul.skills li {
-    list-style-type: circle;
+    list-style-type: none;
 }
 
 footer {
