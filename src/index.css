@@ -234,6 +234,10 @@ textarea {
     margin-top: 10px;
 }
 
+form {
+    display: inline-block;
+}
+
 .container {
     width: 85%;
     max-width: 1200px;
